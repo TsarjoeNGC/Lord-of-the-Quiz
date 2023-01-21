@@ -13,7 +13,7 @@ https://github.com/TsarjoeNGC/Lord-of-the-Quiz
 
 
 - Deployed GitHub IO
-
+https://tsarjoengc.github.io/Lord-of-the-Quiz/
 
 
 - Full Demo Video
