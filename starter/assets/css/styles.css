@@ -11,7 +11,7 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  background-color: #134094;
+  background-color: #1c3d7a;
   color: #ffffff;
   padding: 3vh;
 }
@@ -35,8 +35,9 @@ main {
 .button {
   display: block;
   color: #ffffff;
-  background-color: #117784;
+  background-color: #3f9de1;
   padding: 2vh;
+  margin: 10px 0;
   border-radius: 8px;
   border: none;
 }
@@ -67,3 +68,57 @@ main {
 
 /* Question Card Styles */
 
+.option-button {
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#result-div {
+  display: none;
+}
+
+/* Score Card Styles */
+
+.inline-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#initials {
+  width: 25%;
+  margin: 8px;
+  padding: 1vh;
+}
+
+/* Leaderboard Card Styles */
+
+#back-button {
+  margin-right: 8px;
+}
+
+.highscore-list {
+  padding-inline-start: 20px;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 850px) {
+  .card {
+    max-width: 680px;
+  }
+}
+
+/* Media query that specifies devices that can utilize hover */
+@media (hover) {
+  /* Stylings pertaining to hover pseudo-class*/
+  a:hover {
+    color: #cbe1e0;
+  }
+
+  button:hover {
+    background-color: rgb(33, 76, 131);
+  }
+}
